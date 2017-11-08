@@ -1,0 +1,286 @@
+@import './utilities/variables';
+
+.header {
+    background: url(../images/header_bg.png);
+    @include background-size(cover);
+    min-height: 950px; 
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+
+
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: bold;
+            color: $white;
+            padding-left: 360px;
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        .navbar-collapse {
+            padding-right: 360px;
+            ul {
+                li {
+                    a {
+                        color: $white;
+                        font-size: 14px;
+                        border-bottom: 2px solid transparent; 
+                    
+                        &:hover, &:active, {
+                            color: $yellow;
+                            border-bottom: 2px solid $yellow;
+                        }
+                    }
+                }
+            }
+        }
+
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: $pink !important;
+    transition: background-color 300ms linear;
+  }
+
+.title {
+    color: $white;
+    text-align: center;
+
+    h2 {
+        font-size: 150px;
+
+        &:after {
+            border-color: $white;
+            margin-top: -100px;
+        }
+    }
+
+    h3 {
+        font-size: 72px;
+        margin-top: 140px;
+        margin-bottom: 70px;
+    }
+
+    button {
+        background-color: transparent;
+        border: 3px solid $white;
+        border-radius: 0;
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 auto;
+        margin-top: 50px;
+    
+        &:hover {
+            border-color: $pink;
+            color: $pink;
+        }
+
+        &:active, &:visited  {
+            border-color: $pink;
+            color: $pink;
+        }
+    }
+}
+
+.progressBar {
+    margin-top: 100px;    
+    color: $white;
+    font-size: 18px;
+    opacity: 0.3;
+
+    .bar {
+        display: block;
+        width: 280px;
+        height: 3px;
+        background-color: $white;
+    }
+
+    .bar-desc {
+        margin-top: 5px;
+
+        span {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 3px;
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .header {
+        min-height: 700px;
+    }
+
+    .navbar-default {
+        .navbar-collapse {
+            padding-right: 300px;
+        }
+
+        .navbar-brand {
+            padding-left: 20px;
+        }
+
+        div {
+            .navbar-collapse {
+                background-color: $pink;
+               
+            }
+        }
+            
+        li {
+            width: 320px;
+            text-align: center;
+        }   
+    }
+
+    .title {
+        h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 56px;
+
+            &:after {
+                margin-top: 0;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+    .header {
+        min-height: 700px;
+    }
+
+    .navbar-default {
+        .navbar-collapse {
+            padding-right: 300px;
+        }
+
+        .navbar-brand {
+            padding-left: 20px;
+        }
+
+        div {
+            .navbar-collapse {
+                background-color: $pink;
+               
+            }
+        }
+            
+        li {
+            width: 375px;
+            text-align: center;
+        }   
+    }
+
+    .title {
+        h3 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 62px;
+
+            &:after {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+
+    .header {
+        min-height: 700px;
+    }
+    
+    .navbar-default {
+        .navbar-collapse {
+            padding-right: 300px;
+        }
+
+        .navbar-brand {
+            padding-left: 20px;
+        }
+
+        div {
+            .navbar-collapse {
+                background-color: $pink;
+               
+            }
+        }
+            
+        li {
+            width: 425px;
+            text-align: center;
+        }   
+    }
+
+    .title {
+        h3 {
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 68px;
+
+            &:after {
+                margin-top: 0;
+            }
+        }
+    } 
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .navbar-default {
+        .navbar-brand {
+            padding-left: 50px;
+        }
+
+        .navbar-collapse {
+            padding-right: 50px;
+        }
+    }
+
+    .title {
+        h3 {
+            font-size: 55px;
+        }
+
+        h2 {
+            font-size: 100px;
+
+            &:after {
+                margin-top: 0;
+            }
+        }
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-default {
+        .navbar-brand {
+            padding-left: 100px;
+        }
+
+        .navbar-collapse {
+            padding-right: 50px;
+        }
+    }
+}

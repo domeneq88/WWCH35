@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.service p {
+  margin-top: 50px;
+  line-height: 25px; }
+
+.service .service-box {
+  margin-top: 100px;
+  margin-bottom: 120px; }
+  .service .service-box .service-box-img {
+    width: 100%;
+    height: 100%; }
+  .service .service-box .service-desc {
+    display: block;
+    margin-left: 30px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    width: 550px; }
+    .service .service-box .service-desc .service-icon {
+      display: block;
+      padding: 10px 10px;
+      height: 45px;
+      width: 45px; }
+    .service .service-box .service-desc .service-title {
+      height: 33.5px;
+      margin: -25px 0 0 60px; }
+      .service .service-box .service-desc .service-title span:last-child {
+        float: right;
+        margin-right: 20px;
+        color: #999999; }
+    .service .service-box .service-desc .service-subdesc {
+      border-top: 1px solid #e5e5e5;
+      font-style: italic;
+      margin-top: 0;
+      text-align: left;
+      padding: 15px;
+      display: none; }
+
+.carousel {
+  background-color: #f8f8f8;
+  height: 280px;
+  width: 100%;
+  margin: 0 auto; }
+  .carousel a span {
+    color: #999999; }
+  .carousel .carousel-inner {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center; }
+    .carousel .carousel-inner .item {
+      width: 80%;
+      margin-left: 500px; }
+      .carousel .carousel-inner .item .carousel-img {
+        display: block;
+        margin: 80px 50px 0px 0px;
+        float: left; }
+        .carousel .carousel-inner .item .carousel-img img {
+          padding: 30px;
+          border: 2px solid #95e1d3; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        float: left;
+        width: 780px;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 300;
+        text-align: left;
+        top: 0;
+        bottom: 0;
+        margin: 0 auto;
+        margin: 80px 0 0 0; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        display: flex;
+        align-items: center;
+        float: left;
+        clear: both;
+        margin-left: 205px;
+        margin-top: -30px;
+        font-family: "Kaushan Script", cursive;
+        font-size: 24px; }
+        .carousel .carousel-inner .item .carousel-desc-sign:before {
+          content: '';
+          display: block;
+          border: 2px solid #f38181;
+          width: 60px;
+          flex-grow: 1;
+          margin: 0 5px; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+@media (max-width: 320px) {
+  .service p {
+    width: 260px; }
+  .service .service-box .service-desc {
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px 0 10px 0; }
+  .carousel {
+    height: 520px; }
+    .carousel .carousel-inner .item {
+      width: 100%;
+      margin: 0 auto; }
+      .carousel .carousel-inner .item .carousel-img {
+        margin-left: 80px; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        width: 90%;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 20px; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        margin-top: 20px;
+        margin-left: 130px; } }
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .service p {
+    width: 320px; }
+  .service .service-box .service-desc {
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px 0 10px 0; }
+  .carousel {
+    height: 520px; }
+    .carousel .carousel-inner .item {
+      width: 100%;
+      margin: 0 auto; }
+      .carousel .carousel-inner .item .carousel-img {
+        margin-left: 110px; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        width: 95%;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 20px; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        margin-top: 20px;
+        margin-left: 170px; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .service p {
+    width: 320px; }
+  .service .service-box .service-desc {
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px 0 10px 0; }
+  .carousel {
+    height: 520px; }
+    .carousel .carousel-inner .item {
+      width: 100%;
+      margin: 0 auto; }
+      .carousel .carousel-inner .item .carousel-img {
+        margin-left: 140px; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        width: 95%;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 20px; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        margin-top: 20px;
+        margin-left: 210px; } }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .service p {
+    width: 420px; }
+  .service .service-box .service-desc {
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px 0 10px 0; }
+  .carousel {
+    height: 520px; }
+    .carousel .carousel-inner .item {
+      width: 100%;
+      margin: 0 auto; }
+      .carousel .carousel-inner .item .carousel-img {
+        margin-left: 300px; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        width: 80%;
+        font-size: 22px;
+        line-height: 25px;
+        margin-left: 60px; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        margin-top: 20px;
+        margin-left: 410px; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .service p {
+    width: 720px; }
+  .service .service-box .service-desc {
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 0 10px 0; }
+  .service .service-box .service-subdesc {
+    width: 100%; }
+  .carousel {
+    height: 520px; }
+    .carousel .carousel-inner .item {
+      width: 100%;
+      margin: 0 auto; }
+      .carousel .carousel-inner .item .carousel-img {
+        margin-left: 400px; }
+      .carousel .carousel-inner .item .carousel-desc-p {
+        width: 80%;
+        font-size: 22px;
+        line-height: 25px;
+        margin-left: 100px; }
+      .carousel .carousel-inner .item .carousel-desc-sign {
+        margin-top: 20px;
+        margin-left: 610px; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .carousel .carousel-inner .item {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 300px; }
+    .carousel .carousel-inner .item .carousel-desc-p {
+      width: 800px; } }

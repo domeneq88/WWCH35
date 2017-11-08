@@ -1,0 +1,223 @@
+@import './utilities/variables';
+
+.about-title {
+    p {
+        margin-top: 50px;
+        text-align: center;
+        width: 900px;
+        line-height: 25px;
+    }
+}
+
+
+
+.about-photos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tint {
+    position: relative;
+}
+    .tint::before {
+    content: "";
+    display: block;
+    position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include gradient($pink, $yellow);
+        -moz-transition: background .3s linear;
+        -webkit-transition: background .3s linear;
+        -o-transition: background .3s linear;
+        transition: background .3s linear;   
+        opacity: 0;
+    }
+
+    .tint {
+        p {
+            color: $white;
+            font-family: $font1;
+            font-weight: bold;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 18px;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+        }
+    }
+
+    .tint:hover:before {
+        opacity: 0.8;
+        box-shadow: 10px 10px $turquoise;
+    }
+
+    .tint:hover p {
+        opacity: 1;
+    }
+
+.about-box {
+    &:hover {
+        @include transform(-10px, -10px);
+    }
+}
+
+.about-counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: $turquoise;
+    margin-bottom: 110px;
+
+    div:first-child {
+        border-left: 1px solid $white;
+    }
+
+    .about-counter-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 250px;
+        border-right: 1px solid $white;
+  
+        .about-counter-box-count {
+            color: $white;
+            font-size: 72px;
+            font-weight: bold;
+            flex: 1 1 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .about-counter-box-title {
+            font-size: 14px;
+            color: $white;
+            margin-top: -80px;
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+    .about-title {
+        p {
+            width: 290px;
+        }
+    }
+
+    .tint {
+        margin-bottom: 20px;
+    }
+
+    .about-counter {
+        display: block;
+        height: 200px;
+
+        .about-counter-box {
+            width: 100%;
+            background: $turquoise;
+            border-bottom: 1px solid $white;
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .about-title {
+        p {
+            width: 310px;
+        }
+    }
+
+    .tint {
+        margin-bottom: 20px;
+    }
+
+    .about-counter {
+        display: block;
+        height: 200px;
+
+        .about-counter-box {
+            width: 100%;
+            background: $turquoise;
+            border-bottom: 1px solid $white;
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .about-title {
+        p {
+            width: 360px;
+        }
+    }
+
+    .tint {
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .about-counter {
+        display: block;
+        height: 200px;
+
+        .about-counter-box {
+            width: 100%;
+            background: $turquoise;
+            border-bottom: 1px solid $white;
+        }
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .about-title {
+        p {
+            width: 425px;
+        }
+    }
+
+    .tint {
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .about-counter {
+        display: block;
+        height: 200px;
+
+        .about-counter-box {
+            width: 100%;
+            background: $turquoise;
+            border-bottom: 1px solid $white;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about-title {
+        p {
+            width: 760px;
+        }
+    }
+}
+
+      
+
+
+
+
+
+
+

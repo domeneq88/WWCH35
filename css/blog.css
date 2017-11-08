@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.blog .blog-area {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .blog .blog-area .blog-box {
+    margin-top: 20px; }
+    .blog .blog-area .blog-box .blog-logo {
+      position: relative; }
+    .blog .blog-area .blog-box .blog-date {
+      position: absolute;
+      margin: -80px 0 0 -10px;
+      padding: 10px 15px;
+      background-color: #95e1d3;
+      color: white; }
+      .blog .blog-area .blog-box .blog-date .blog-number {
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: 700; }
+      .blog .blog-area .blog-box .blog-date .blog-month {
+        color: white;
+        font-style: italic;
+        margin: 0 auto; }
+    .blog .blog-area .blog-box .blog-title {
+      font-style: normal;
+      text-transform: uppercase;
+      margin: 20px 0; }
+    .blog .blog-area .blog-box .blog-desc {
+      text-align: left;
+      line-height: 25px;
+      font-weight: bold; }
+    .blog .blog-area .blog-box .glyphicon-thumbs-up, .blog .blog-area .blog-box .glyphicon-heart {
+      float: left;
+      color: #95e1d3;
+      font-size: 15px;
+      margin-right: 10px;
+      padding: 0 5px; }
+      .blog .blog-area .blog-box .glyphicon-thumbs-up .blog-icon-sign, .blog .blog-area .blog-box .glyphicon-heart .blog-icon-sign {
+        color: #95e1d3;
+        margin: -15px 0 0 20px; }
+
+.blog .map {
+  background: url(../images/map_bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 150px;
+  width: 100%;
+  color: #f38181; }
+  .blog .map h3 {
+    margin-top: 30px; }
+  .blog .map h2 a {
+    text-decoration: none;
+    color: #f38181;
+    cursor: pointer; }
+    .blog .map h2 a:hover {
+      color: #fce38a; }

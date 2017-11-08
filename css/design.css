@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.design {
+  background: url(../images/feauture_bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 850px;
+  margin-bottom: 100px; }
+  .design .design-img {
+    position: relative; }
+    .design .design-img img {
+      position: absolute;
+      top: 100%;
+      left: 35%;
+      margin: 100px 0 0 0; }
+    .design .design-img .img2 {
+      display: none; }
+
+@media (max-width: 320px) {
+  .design .design-img .img1 {
+    display: none; }
+  .design .design-img .img2 {
+    display: block;
+    left: 0;
+    margin-top: 200px; } }
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .design .design-img .img1 {
+    display: none; }
+  .design .design-img .img2 {
+    display: block;
+    left: 0;
+    margin-top: 200px; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .design .design-img .img1 {
+    left: 0;
+    margin-top: 300px; } }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .design .design-img .img1 {
+    left: 10%; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .design .design-img .img1 {
+    left: 25%; } }

@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.footer {
+  min-height: 570px;
+  background-color: #f8f8f8; }
+  .footer .footer-desc {
+    margin-left: -50px; }
+    .footer .footer-desc .footer-desc-logo {
+      color: #cccccc;
+      font-size: 56px;
+      font-family: "Montserrat", sans-serif;
+      float: left;
+      margin-bottom: 40px; }
+    .footer .footer-desc .footer-desc-p {
+      float: left;
+      text-align: left;
+      line-height: 25px;
+      font-weight: bold;
+      margin-bottom: 40px; }
+    .footer .footer-desc .footer-desc-counter {
+      float: left;
+      margin-bottom: 20px; }
+      .footer .footer-desc .footer-desc-counter span {
+        font-size: 20px;
+        font-weight: 700; }
+    .footer .footer-desc hr {
+      float: left;
+      width: 100%; }
+    .footer .footer-desc .footer-desc-social {
+      float: left;
+      font-weight: 300;
+      font-style: italic;
+      color: #95e1d3;
+      margin-right: 10px;
+      font-size: 18px; }
+      .footer .footer-desc .footer-desc-social i {
+        margin-left: 10px; }
+        .footer .footer-desc .footer-desc-social i:hover {
+          color: #999999;
+          cursor: pointer; }
+    .footer .footer-desc .input-group {
+      float: left;
+      margin-top: 40px; }
+      .footer .footer-desc .input-group input {
+        width: 250px;
+        height: 40px;
+        border-radius: 0; }
+      .footer .footer-desc .input-group input::placeholder {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic; }
+      .footer .footer-desc .input-group button {
+        width: 150px;
+        height: 40px;
+        border-radius: 0;
+        border: none;
+        color: white;
+        background: #95e1d3; }
+        .footer .footer-desc .input-group button:hover {
+          opacity: 0.85; }
+  .footer .footer-blog {
+    margin: 100px 0 0 20px; }
+    .footer .footer-blog h5 {
+      margin-bottom: 50px; }
+    .footer .footer-blog .footer-blog-box {
+      float: left; }
+      .footer .footer-blog .footer-blog-box h5 {
+        display: block;
+        margin: -70px 0 10px 140px;
+        text-transform: uppercase;
+        width: 260px;
+        line-height: 20px; }
+      .footer .footer-blog .footer-blog-box p {
+        margin: 0 0 40px 140px;
+        font-weight: 300;
+        text-align: left;
+        font-style: italic; }
+  .footer .footer-insta {
+    margin: 100px 0 0 20px; }
+    .footer .footer-insta h5 {
+      margin-bottom: 50px; }
+    .footer .footer-insta .instagram-photo {
+      display: grid;
+      grid-template-columns: 88px 88px 88px;
+      grid-template-rows: 88px 88px 88px;
+      grid-gap: 2px 2px; }
+      .footer .footer-insta .instagram-photo div img {
+        width: 100%;
+        height: 100%; }
+      .footer .footer-insta .instagram-photo .instagram-photo1 {
+        grid-column: 1;
+        grid-row: 1; }
+      .footer .footer-insta .instagram-photo .instagram-photo2 {
+        grid-column: 2;
+        grid-row: 1; }
+      .footer .footer-insta .instagram-photo .instagram-photo3 {
+        grid-column: 3;
+        grid-row: 1; }
+      .footer .footer-insta .instagram-photo .instagram-photo4 {
+        grid-column: 1;
+        grid-row: 2; }
+      .footer .footer-insta .instagram-photo .instagram-photo5 {
+        grid-column: 2;
+        grid-row: 2; }
+      .footer .footer-insta .instagram-photo .instagram-photo6 {
+        grid-column: 3;
+        grid-row: 2; }
+      .footer .footer-insta .instagram-photo .instagram-photo7 {
+        grid-column: 1;
+        grid-row: 3; }
+      .footer .footer-insta .instagram-photo .instagram-photo8 {
+        grid-column: 2;
+        grid-row: 3; }
+      .footer .footer-insta .instagram-photo .instagram-photo9 {
+        grid-column: 3;
+        grid-row: 3; }
+      .footer .footer-insta .instagram-photo .instagram-photo1, .footer .footer-insta .instagram-photo .instagram-photo2, .footer .footer-insta .instagram-photo .instagram-photo3, .footer .footer-insta .instagram-photo .instagram-photo4, .footer .footer-insta .instagram-photo .instagram-photo5,
+      .footer .footer-insta .instagram-photo .instagram-photo6, .footer .footer-insta .instagram-photo .instagram-photo7, .footer .footer-insta .instagram-photo .instagram-photo8, .footer .footer-insta .instagram-photo .instagram-photo9 {
+        position: relative; }
+        .footer .footer-insta .instagram-photo .instagram-photo1:before, .footer .footer-insta .instagram-photo .instagram-photo2:before, .footer .footer-insta .instagram-photo .instagram-photo3:before, .footer .footer-insta .instagram-photo .instagram-photo4:before, .footer .footer-insta .instagram-photo .instagram-photo5:before,
+        .footer .footer-insta .instagram-photo .instagram-photo6:before, .footer .footer-insta .instagram-photo .instagram-photo7:before, .footer .footer-insta .instagram-photo .instagram-photo8:before, .footer .footer-insta .instagram-photo .instagram-photo9:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: -webkit-linear-gradient(white, #333333);
+          background: -o-linear-gradient(white, #333333);
+          background: -moz-linear-gradient(white, #333333);
+          background: linear-gradient(white, #333333);
+          -moz-transition: background .3s linear;
+          -webkit-transition: background .3s linear;
+          -o-transition: background .3s linear;
+          transition: background .3s linear;
+          opacity: 0; }
+        .footer .footer-insta .instagram-photo .instagram-photo1 p, .footer .footer-insta .instagram-photo .instagram-photo2 p, .footer .footer-insta .instagram-photo .instagram-photo3 p, .footer .footer-insta .instagram-photo .instagram-photo4 p, .footer .footer-insta .instagram-photo .instagram-photo5 p,
+        .footer .footer-insta .instagram-photo .instagram-photo6 p, .footer .footer-insta .instagram-photo .instagram-photo7 p, .footer .footer-insta .instagram-photo .instagram-photo8 p, .footer .footer-insta .instagram-photo .instagram-photo9 p {
+          color: white;
+          font-family: "Montserrat", sans-serif;
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          font-size: 14px;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          font-style: italic; }
+      .footer .footer-insta .instagram-photo .instagram-photo1:hover:before, .footer .footer-insta .instagram-photo .instagram-photo2:hover:before,
+      .footer .footer-insta .instagram-photo .instagram-photo3:hover:before, .footer .footer-insta .instagram-photo .instagram-photo4:hover:before,
+      .footer .footer-insta .instagram-photo .instagram-photo5:hover:before, .footer .footer-insta .instagram-photo .instagram-photo6:hover:before,
+      .footer .footer-insta .instagram-photo .instagram-photo7:hover:before, .footer .footer-insta .instagram-photo .instagram-photo8:hover:before, .footer .footer-insta .instagram-photo .instagram-photo9:hover:before {
+        opacity: 0.8; }
+  .footer .footer-sign {
+    font-family: "Montserrat", sans-serif;
+    color: #333333; }
+    .footer .footer-sign span {
+      color: #f38181; }
+
+@media (max-width: 320px) {
+  .footer .footer-desc {
+    margin-left: 0; }
+    .footer .footer-desc .input-group {
+      margin-left: 20px; }
+      .footer .footer-desc .input-group button {
+        width: 250px; }
+  .footer .footer-blog {
+    margin: 100px 0 0 0; }
+    .footer .footer-blog .footer-blog-box h5 {
+      margin: -80px 0 10px 140px;
+      width: 160px;
+      line-height: 15px; }
+  .footer .footer-insta {
+    margin: 100px 0 0 0; } }
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .footer .footer-desc {
+    margin-left: 0; }
+    .footer .footer-desc .input-group button {
+      width: 250px; }
+  .footer .footer-blog {
+    margin: 100px 0 0 0; }
+    .footer .footer-blog .footer-blog-box h5 {
+      margin: -80px 0 10px 140px;
+      width: 180px;
+      line-height: 15px; }
+  .footer .footer-insta {
+    margin: 100px 0 0 0; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .footer .footer-desc {
+    margin-left: 0; }
+    .footer .footer-desc .input-group button {
+      width: 250px; }
+  .footer .footer-blog {
+    margin: 100px 0 0 0; }
+    .footer .footer-blog .footer-blog-box h5 {
+      margin: -80px 0 10px 140px;
+      width: 220px;
+      line-height: 15px; }
+  .footer .footer-insta {
+    margin: 100px 0 0 0; } }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .footer .footer-desc {
+    margin-left: 0; }
+    .footer .footer-desc .input-group button {
+      width: 250px; }
+  .footer .footer-blog {
+    margin: 100px 0 0 0; }
+    .footer .footer-blog .footer-blog-box h5 {
+      margin: -80px 0 10px 140px;
+      width: 220px;
+      line-height: 15px; }
+  .footer .footer-insta {
+    margin: 100px 0 0 0; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer .footer-desc {
+    margin-left: -20px; }
+    .footer .footer-desc .input-group button {
+      width: 250px; }
+  .footer .footer-blog {
+    margin: 100px 0 0 0; }
+    .footer .footer-blog .footer-blog-box h5 {
+      margin: -80px 0 10px 140px;
+      width: 180px;
+      line-height: 15px; }
+  .footer .footer-insta {
+    margin: 100px 0 0 0; } }

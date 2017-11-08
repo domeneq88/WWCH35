@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.team-photos {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.team-tint {
+  position: relative; }
+
+.team-tint::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(#f38181, #fce38a);
+  background: -o-linear-gradient(#f38181, #fce38a);
+  background: -moz-linear-gradient(#f38181, #fce38a);
+  background: linear-gradient(#f38181, #fce38a);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+  opacity: 0; }
+
+.team-tint .team-tint-social {
+  background: #fce38a;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 180px;
+  height: 45px; }
+  .team-tint .team-tint-social .team-tint-social-icon {
+    float: left;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #f38181; }
+    .team-tint .team-tint-social .team-tint-social-icon a {
+      margin: 0 auto; }
+      .team-tint .team-tint-social .team-tint-social-icon a i {
+        color: #f38181; }
+    .team-tint .team-tint-social .team-tint-social-icon:hover {
+      background: #f38181; }
+      .team-tint .team-tint-social .team-tint-social-icon:hover:hover i {
+        color: white; }
+  .team-tint .team-tint-social div:nth-child(4) {
+    border-right: none; }
+
+.team-tint:hover:before {
+  opacity: 0.8;
+  box-shadow: 10px 10px #95e1d3; }
+
+.team-tint:hover .team-tint-social {
+  opacity: 1; }
+
+.team-box:hover {
+  -webkit-transform: translate(-10px, -10px);
+  -moz-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  -o-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px); }
+
+.team-box .team-sign {
+  text-align: center;
+  margin-top: 30px; }
+  .team-box .team-sign h5 {
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+  .team-box .team-sign p {
+    font-style: italic; }
+
+.logo {
+  background-color: #f8f8f8;
+  min-height: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .logo img {
+    margin-right: 80px; }
+
+@media (max-width: 320px) {
+  .team-box .team-sign p {
+    margin-bottom: 30px; }
+  .logo img {
+    margin: 0 auto; } }
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .team-box .team-sign p {
+    margin-bottom: 30px; }
+  .logo img {
+    margin: 0 auto; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .team-box .team-sign p {
+    margin-bottom: 30px; }
+  .logo img {
+    margin: 40px; } }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .team-tint img {
+    width: 100%; }
+  .team-box .team-sign p {
+    margin-bottom: 30px; }
+  .logo img {
+    margin: 50px; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo img {
+    margin: 50px; } }

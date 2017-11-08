@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300");
+.header {
+  background: url(../images/header_bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 950px; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none; }
+  .navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 360px; }
+    .navbar-default .navbar-brand:hover {
+      color: white; }
+  .navbar-default .navbar-collapse {
+    padding-right: 360px; }
+    .navbar-default .navbar-collapse ul li a {
+      color: white;
+      font-size: 14px;
+      border-bottom: 2px solid transparent; }
+      .navbar-default .navbar-collapse ul li a:hover, .navbar-default .navbar-collapse ul li a:active {
+        color: #fce38a;
+        border-bottom: 2px solid #fce38a; }
+
+.navbar-fixed-top.scrolled {
+  background-color: #f38181 !important;
+  transition: background-color 300ms linear; }
+
+.title {
+  color: white;
+  text-align: center; }
+  .title h2 {
+    font-size: 150px; }
+    .title h2:after {
+      border-color: white;
+      margin-top: -100px; }
+  .title h3 {
+    font-size: 72px;
+    margin-top: 140px;
+    margin-bottom: 70px; }
+  .title button {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 0;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 50px; }
+    .title button:hover {
+      border-color: #f38181;
+      color: #f38181; }
+    .title button:active, .title button:visited {
+      border-color: #f38181;
+      color: #f38181; }
+
+.progressBar {
+  margin-top: 100px;
+  color: white;
+  font-size: 18px;
+  opacity: 0.3; }
+  .progressBar .bar {
+    display: block;
+    width: 280px;
+    height: 3px;
+    background-color: white; }
+  .progressBar .bar-desc {
+    margin-top: 5px; }
+    .progressBar .bar-desc span {
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 3px; }
+
+@media (max-width: 320px) {
+  .header {
+    min-height: 700px; }
+  .navbar-default .navbar-collapse {
+    padding-right: 300px; }
+  .navbar-default .navbar-brand {
+    padding-left: 20px; }
+  .navbar-default div .navbar-collapse {
+    background-color: #f38181; }
+  .navbar-default li {
+    width: 320px;
+    text-align: center; }
+  .title h3 {
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .title h2 {
+    font-size: 56px; }
+    .title h2:after {
+      margin-top: 0; } }
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .header {
+    min-height: 700px; }
+  .navbar-default .navbar-collapse {
+    padding-right: 300px; }
+  .navbar-default .navbar-brand {
+    padding-left: 20px; }
+  .navbar-default div .navbar-collapse {
+    background-color: #f38181; }
+  .navbar-default li {
+    width: 375px;
+    text-align: center; }
+  .title h3 {
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .title h2 {
+    font-size: 62px; }
+    .title h2:after {
+      margin-top: 0; } }
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .header {
+    min-height: 700px; }
+  .navbar-default .navbar-collapse {
+    padding-right: 300px; }
+  .navbar-default .navbar-brand {
+    padding-left: 20px; }
+  .navbar-default div .navbar-collapse {
+    background-color: #f38181; }
+  .navbar-default li {
+    width: 425px;
+    text-align: center; }
+  .title h3 {
+    font-size: 35px;
+    margin-bottom: 40px; }
+  .title h2 {
+    font-size: 68px; }
+    .title h2:after {
+      margin-top: 0; } }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .navbar-default .navbar-brand {
+    padding-left: 50px; }
+  .navbar-default .navbar-collapse {
+    padding-right: 50px; }
+  .title h3 {
+    font-size: 55px; }
+  .title h2 {
+    font-size: 100px; }
+    .title h2:after {
+      margin-top: 0; } }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-default .navbar-brand {
+    padding-left: 100px; }
+  .navbar-default .navbar-collapse {
+    padding-right: 50px; } }

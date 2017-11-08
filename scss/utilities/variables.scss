@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:700|Roboto:300');
+
+$black: rgb(51, 51, 51);
+$white: rgb(255, 255, 255);
+$yellow: rgb(252, 227, 138);
+$pink: rgb(243, 129, 129);
+$turquoise: rgb(149, 225, 211);
+$green: rgb(234, 255, 208);
+$grey: rgb(153, 153, 153);
+$lgrey: rgb(229, 229, 229);
+$lgrey2: rgb(248, 248, 248);
+$lgrey3: rgb(204, 204, 204);
+
+$font1: 'Montserrat', sans-serif;
+$font2: 'Roboto', sans-serif;
+$font3: 'Kaushan Script', cursive;
+
+@mixin background-size($size) {
+	-webkit-background-size: $size;
+	   -moz-background-size: $size;
+		-ms-background-size: $size;
+		 -o-background-size: $size;
+	    	background-size: $size;
+
+}
+
+@mixin transform($x, $y) {
+	-webkit-transform: translate($x, $y);
+	   -moz-transform: translate($x, $y);
+        -ms-transform: translate($x, $y);
+         -o-transform: translate($x, $y);
+    		transform: translate($x, $y);
+}
+
+@mixin gradient($c1, $c2) {
+	background: -webkit-linear-gradient($c1, $c2); 
+    background: -o-linear-gradient($c1, $c2); 
+    background: -moz-linear-gradient($c1, $c2); 
+    background: linear-gradient($c1, $c2);
+}
